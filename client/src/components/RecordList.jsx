@@ -75,7 +75,7 @@ function RecordList() {
                     <th>Action</th>
                 </tr>
                 </thead>
-                <tbody>{recordList()}</tbody>
+                <tbody>{mapRecords()}</tbody>
             </table>
         </div>
     );
