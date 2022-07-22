@@ -8,16 +8,16 @@ import Create from "./components/Create";
 
 
 function App() {
-return (
-<div className="App">
-    <NavBar />
-    <Routes>
-        <Route exact path="/" element={<RecordList />} />
-        <Route path="/edit/:id" element={<Edit />} />
-        <Route path="/create" element={<Create />} />
-    </Routes>
-</div>
-);
+    return (
+    <div className="App">
+        <NavBar />
+        <Routes>
+            <Route exact path="/" element={<RecordList />} />
+            <Route path="/edit/:id" element={<Edit />} />
+            <Route path="/create" element={<Create />} />
+        </Routes>
+    </div>
+    );
 };
 
 export default App;
