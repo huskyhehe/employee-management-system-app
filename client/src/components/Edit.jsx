@@ -46,12 +46,12 @@ function Edit() {
 
     async function onSubmit(e) {
         e.preventDefault();
+        
         const editedPerson = {
             name: form.name,
             position: form.position,
             level: form.level,
         };
-
 
         await fetch(`http://localhost:5000/update/${params.id}`, {
             method: "POST",
