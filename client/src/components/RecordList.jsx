@@ -14,7 +14,7 @@ const Record = (props) => (
                     props.deleteRecord(props.record._id);
                 }}
             >
-            Delete
+                Delete
             </button>
         </td>
     </tr>
@@ -68,12 +68,12 @@ function RecordList() {
             <h3>Record List</h3>
             <table className="table table-striped" style={{ marginTop: 20 }}>
                 <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Level</th>
-                    <th>Action</th>
-                </tr>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Level</th>
+                        <th>Action</th>
+                    </tr>
                 </thead>
                 <tbody>{mapRecords()}</tbody>
             </table>
