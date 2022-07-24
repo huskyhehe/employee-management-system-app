@@ -69,7 +69,7 @@ function Edit() {
     return (
         <div>
             <h3>Update Record</h3>
-            <form onSubmit={onSubmit}>
+            <form onSubmit={(e) => onSubmit(e)}>
                 <div className="form-group">
                     <label htmlFor="name">Name: </label>
                     <input
